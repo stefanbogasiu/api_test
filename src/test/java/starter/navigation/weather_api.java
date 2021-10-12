@@ -6,3 +6,5 @@ import net.thucydides.core.annotations.DefaultUrl;
 
 @DefaultUrl("http://api.weatherstack.com/")
 public class weather_api extends PageObject {}
+
+
