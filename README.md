@@ -24,11 +24,10 @@ Test data is defined in the search_by_keyword.feature file in the following form
   
     Given Sergey is navigating to weather api homepage  ///Navigates to the weather.api homepage
     
-    When he looks up "New%20York"                       //Searches for the specified city by adding it to the api call url
+    When he looks up "New%20York"                       //Searches for the specified city by adding it to the api call url,the city name need to be url encoded
     
     Then he should see information about "New York"     //Verifies that the response contains the specified keyword
     
-  <b>For the second step the city name need to be url encoded</b>
 
 
 
