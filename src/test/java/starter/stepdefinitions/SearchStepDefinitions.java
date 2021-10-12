@@ -26,7 +26,7 @@ public class SearchStepDefinitions {
     @Then("{actor} should see information about {string}")
     public void should_see_information_about(Actor actor, String term) {
         actor.attemptsTo(
-                Ensure.that(weather_api_response.HEADING).hasText(term)
+                Ensure.that(weather_api_response.HEADING).text().contains(term)
         );
     }
 }
