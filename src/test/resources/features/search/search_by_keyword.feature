@@ -1,7 +1,7 @@
 Feature: Search by keyword
 
   Scenario: Searching for a term
-    Given Sergey is researching things on the internet
-    When he looks up "Cucumber"
-    Then he should see information about "Cucumber"
+    Given Sergey is navigating to weather api homepage
+    When he looks up "New%20York"
+    Then he should see information about "New York"
 

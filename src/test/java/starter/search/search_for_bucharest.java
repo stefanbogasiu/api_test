@@ -16,7 +16,7 @@ public class search_for_bucharest {
 //    }
 
     public static Performable the_weather_api_new_york() {
-        return Task.where("{0} opens the weather api home page",
+        return Task.where("{0} opens the weather api home page on new york",
                 Open.browserOn().the(new_york.class));
     }
 }
