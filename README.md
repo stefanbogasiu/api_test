@@ -25,7 +25,7 @@ Test data is defined in the search_by_keyword.feature file in the following form
     When he looks up "New%20York"                       //Searches for the specified city by adding it to the api call url
     Then he should see information about "New York"     //Verifies that the response contains the specified keyword
     
-  <b>For the second step the city name need to be url encoded<b>
+  <b>For the second step the city name need to be url encoded</b>
 
 
   There are 2 existing scenarios in the search_by_keyword.feature file. One is a valid city input the other one is an invalid input.
