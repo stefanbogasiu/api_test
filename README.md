@@ -2,7 +2,7 @@
 
 To run the tests localy on any system you just need an IDE, I used InteliJ for initial development but any other IDE should work. 
 
-Clone this repository localy then open the project using the IDE. 
+Clone this repository localy then open the project using the IDE.  Use the runner file CucumberTestSuite to start the tests.
 
 
 
