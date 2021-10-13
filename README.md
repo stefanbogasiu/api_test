@@ -37,3 +37,6 @@ Test data is defined in the search_by_keyword.feature file in the following form
   HTML reports are generated using serenity. They are located at the following path api_test\target\site\serenity and are generated after each run 
   
   When creating new tests or adding new test data in the search_by_keyword.feature file please checkout develop and use it for testing/developing before merging the changes in the master branch
+  
+  
+  Gitlab integration can be viewed at https://gitlab.com/stefan.bogasiu/weather-api
